@@ -1,0 +1,28 @@
+.container{
+    .box{
+        .empty{
+            .green{
+                transition: all 1s cubic-bezier(0.18, 0.15, 0.97, 0.95);
+                top: 0;
+                left: -400px;
+                position: absolute;
+                margin: 0 auto;
+                width: 400px;
+                height: 15px;
+                background: green;
+            }
+            overflow: hidden;
+            position: relative;
+            margin: 20px auto;
+            width: 400px;
+            height: 15px;
+            border: 1px solid black;
+        }
+        
+        text-align: center;
+        margin: 100px auto;
+        width: 500px;
+        height: 200px;
+        border: 1px solid black;
+    }
+}

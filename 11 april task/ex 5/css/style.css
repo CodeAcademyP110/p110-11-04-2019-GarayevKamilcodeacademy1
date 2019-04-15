@@ -1,0 +1,41 @@
+.container .box {
+  position: relative;
+  text-align: center;
+  margin: 100px auto;
+  width: 500px;
+  height: 200px;
+  border: 1px solid black;
+}
+.container .box .cancel {
+  position: absolute;
+  top: 10%;
+  left: 27%;
+  color: #09d609;
+}
+.container .box .paragraphy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #09d609;
+}
+.container .box .empty {
+  transition: all 1s ease;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+  width: 400px;
+  height: 15px;
+  border: 1px solid black;
+}
+.container .box .empty .green {
+  transition: all 0.2s linear;
+  top: 0;
+  left: -400px;
+  position: absolute;
+  margin: 0 auto;
+  width: 400px;
+  height: 15px;
+  background: #09d609;
+}
